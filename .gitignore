@@ -24,3 +24,5 @@ hs_err_pid*
 /chain_of_responsibility/chain_of_responsibility.iml
 /out/
 .idea
+
+*.iml
