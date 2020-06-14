@@ -1,0 +1,7 @@
+Use this pattern when
+    Define a grammar
+    Rules an validation
+
+This is a special Case pattern (specific to a problem)
+
+Consider using the Visitor Pattern
