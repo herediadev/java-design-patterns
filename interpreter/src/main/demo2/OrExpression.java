@@ -1,5 +1,6 @@
 package main.demo2;
 
+//nonTerminalExpression
 public class OrExpression implements Expression {
 
     private final Expression expression1;

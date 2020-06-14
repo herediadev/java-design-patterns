@@ -2,6 +2,7 @@ package main.demo2;
 
 import java.util.StringTokenizer;
 
+//terminalExpression
 public class TerminalExpression implements Expression {
     private final String expression;
 

@@ -1,5 +1,6 @@
 package main.demo2;
 
+//nonTerminalExpression
 public class AndExpression implements Expression {
 
     private final Expression terminalExpression1;
