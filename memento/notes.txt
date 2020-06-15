@@ -1,0 +1,14 @@
+use to externalize an object state, usually to provide rollback functionality
+
+Concepts
+    Restore an object to a previous state
+    externalize internal state
+    undo/rollback
+    shield complex internal
+
+Design
+    Class based
+    originator
+    caretaker
+    memento
+    magic cookie
