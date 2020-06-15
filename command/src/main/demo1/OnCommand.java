@@ -1,4 +1,4 @@
-package main;
+package main.demo1;
 
 //concrete command
 public class OnCommand implements Command {

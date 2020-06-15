@@ -1,0 +1,20 @@
+Use to
+    traverse a container
+    Does not expose underlying structure
+    decouple algorithms
+    sequential
+
+Design
+    interface based
+    factory method based
+    independent, but fail fast
+    enumerators are fail safe
+
+Diagram
+    iterator
+    concreteIterator
+
+the idea is to hide the index and the way we get a value from the collection
+hide the algorithm
+simplify the client
+

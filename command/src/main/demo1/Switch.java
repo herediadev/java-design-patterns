@@ -1,4 +1,4 @@
-package main;
+package main.demo1;
 
 //invoker
 public class Switch {

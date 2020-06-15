@@ -1,4 +1,4 @@
-package main;
+package main.demo1;
 
 //receiver
 public class Light {
