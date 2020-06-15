@@ -1,0 +1,15 @@
+use when to define how object interact with each other without
+having them refer to each other explicitly
+
+concepts
+    loose coupling
+    well-defined, but complex
+    reusable component
+    hub / router
+
+design
+    interface based
+    concrete class
+    minimize inheritance
+    mediator knows about colleagues
+    Mediator, concreteMediator
