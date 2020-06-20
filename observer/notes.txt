@@ -1,0 +1,15 @@
+it is a decoupling pattern used when there is a subject that need to be observed
+by one o more observer
+
+one to many observer
+event handling
+M-V-C
+
+
+Design
+    Subject
+    Concrete Subject
+    Observer
+    Concrete Observer
+
+
