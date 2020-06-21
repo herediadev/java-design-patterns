@@ -1,0 +1,22 @@
+package main.demo1;
+
+public class StateDemo1 {
+
+    public static void main(String[] args) {
+        Fan fan = new Fan();
+
+        System.out.println(fan);
+
+        fan.pullChain();
+
+        System.out.println(fan);
+
+        fan.pullChain();
+
+        System.out.println(fan);
+
+        fan.pullChain();
+
+        System.out.println(fan);
+    }
+}

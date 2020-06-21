@@ -1,0 +1,12 @@
+it is used when we need to represent the state in an application
+
+concepts
+    localize state behavior
+    state object
+    separates what from where
+    follow the open close principle
+
+design
+    Abstract class or interface based
+    each state is class based
+    context unaware
