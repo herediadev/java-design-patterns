@@ -1,0 +1,8 @@
+it is used when you want to enable a algorithm to be selected at runtime
+
+Concepts
+    Eliminate conditional statement
+    behavior encapsulated in classes
+    difficult to add new strategies
+    client aware of strategies
+    client chooses strategy
