@@ -6,3 +6,6 @@ Concepts
     difficult to add new strategies
     client aware of strategies
     client chooses strategy
+    Algorithm per Strategy
+    Interface based
+    Run time

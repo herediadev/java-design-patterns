@@ -5,5 +5,8 @@ concepts
     common in libraries/frameworks
     works with IoC
     Algorithm emphasis
+    Same algorithm
+    Class based
+    Compile time
 
 Consider restrict access correctly
