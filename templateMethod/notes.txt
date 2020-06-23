@@ -1,0 +1,9 @@
+it is used to define a algorithm and allow subclasses to refined parts of the algorithm without changing the structure
+
+concepts
+    Code reuse
+    common in libraries/frameworks
+    works with IoC
+    Algorithm emphasis
+
+Consider restrict access correctly
