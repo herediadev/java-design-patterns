@@ -1,0 +1,12 @@
+it is used to separate an algorithm from an object structure
+
+Concepts
+    Adding new feature
+    Maintain Open/Closed principle
+    Visitor changes
+
+Design
+    Interface based
+    Visitor and Element
+    Elements have visit method
+    Visitor knows every Element
