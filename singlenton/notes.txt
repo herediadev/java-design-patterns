@@ -12,3 +12,6 @@ Design
     Private instance
     Private constructor
     No Parameters required for constructor
+
+Added volatile to be thread safe and to ensure it will remain a singleton through any of the changes inside the JVM
+to guard against reflection make a validation in the constructor
