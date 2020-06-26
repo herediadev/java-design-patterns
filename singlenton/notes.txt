@@ -1,0 +1,14 @@
+it is used when you want to guarantee that only one instance is created
+
+concepts
+    Only on instance created
+    Guarantees control of a resource
+    Lazily loaded
+
+Design
+    Class is responsible for lifecycle
+    static in nature
+    Needs to be thread safe
+    Private instance
+    Private constructor
+    No Parameters required for constructor
