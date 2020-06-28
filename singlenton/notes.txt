@@ -15,3 +15,5 @@ Design
 
 Added volatile to be thread safe and to ensure it will remain a singleton through any of the changes inside the JVM
 to guard against reflection make a validation in the constructor
+
+added derby data base jars

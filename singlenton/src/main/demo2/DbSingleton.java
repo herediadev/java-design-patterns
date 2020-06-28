@@ -1,12 +1,18 @@
 package main.demo2;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 public class DbSingleton {
 
     private static volatile DbSingleton instance;
+    private static volatile Connection connection;
 
     private DbSingleton() {
-        if (instance != null)
-            throw new RuntimeException("Use getInstance() method to create");
+        if (connection != null) throw new RuntimeException("Use getInstance() method to create");
+
+        if (instance != null) throw new RuntimeException("Use getInstance() method to create");
     }
 
     public static DbSingleton getInstance() {
@@ -18,5 +24,21 @@ public class DbSingleton {
         }
 
         return instance;
+    }
+
+    public Connection getConnection() {
+        if (connection == null) {
+            synchronized (DbSingleton.class) {
+                if (connection == null) {
+                    String dbUrl = "jdbc:derby:memory:codejava/webdb;create=true";
+                    try {
+                        connection = DriverManager.getConnection(dbUrl);
+                    } catch (SQLException exception) {
+                        exception.printStackTrace();
+                    }
+                }
+            }
+        }
+        return connection;
     }
 }
