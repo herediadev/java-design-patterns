@@ -17,3 +17,7 @@ Design
     Costly construction not handled by client
     Can still utilize parameters for construction
     Shallow VS Deep Copy
+
+Guarantee unique instance
+Can help with performance issue
+Do not always jump to a Factory

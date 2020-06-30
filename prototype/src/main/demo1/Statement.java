@@ -14,6 +14,7 @@ public class Statement implements Cloneable {
         this.record = record;
     }
 
+    //shallow copy
     @Override
     protected Statement clone() {
         try {
