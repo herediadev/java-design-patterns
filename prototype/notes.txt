@@ -1,0 +1,19 @@
+It is used when the type of the object to create is determined by a prototypical instance
+which is clone to get a new instance
+
+apply as a refactoring pattern
+
+Concepts
+    Avoids costly creation
+    Avoids subclassing
+    Typically does not use the "new" keyword
+    Often utilizes an interface
+    Usually implemented with a Registry
+
+Design
+    Clone/Clonable
+    Avoids keyword "new"
+    Although a copy, each instance unique
+    Costly construction not handled by client
+    Can still utilize parameters for construction
+    Shallow VS Deep Copy
