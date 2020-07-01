@@ -1,0 +1,19 @@
+Concepts
+    does not expose instantiation logic
+    defer to subclasses
+    common interface
+    specified by architecture, implemented by user
+    parameter driven
+    solves complex creation
+    enforce a contract
+    Opposite of a singleton
+
+Design
+    Factory
+    ConcreteFactory
+    Factory is responsible for lifecycle
+    common interface
+    concrete classes
+    parameterized create method
+
+it must be designed upfront
