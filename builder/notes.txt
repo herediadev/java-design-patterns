@@ -1,6 +1,8 @@
 It is used for handling the construction that may contain a lot of parameter
 and we want to make the object immutable once it is done constructing it
 
+type: creational
+
 Concepts
     Handle complex constructor
     Large number of parameters

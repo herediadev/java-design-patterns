@@ -1,5 +1,7 @@
 it is used similar to the factory pattern
 
+type: creational
+
 concepts
     it is a factory of factories
     factory of related object

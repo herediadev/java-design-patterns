@@ -1,5 +1,7 @@
 it is used when you want to guarantee that only one instance is created
 
+type: creational
+
 concepts
     Only on instance created
     Guarantees control of a resource

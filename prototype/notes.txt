@@ -3,6 +3,8 @@ which is clone to get a new instance
 
 apply as a refactoring pattern
 
+type: creational
+
 Concepts
     Avoids costly creation
     Avoids subclassing

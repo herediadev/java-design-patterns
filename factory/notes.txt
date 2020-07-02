@@ -1,3 +1,5 @@
+type: creational
+
 Concepts
     does not expose instantiation logic
     defer to subclasses
