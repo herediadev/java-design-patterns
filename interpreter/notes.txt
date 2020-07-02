@@ -1,3 +1,5 @@
+type:behavioral
+
 Use this pattern when
     Define a grammar
     Rules an validation

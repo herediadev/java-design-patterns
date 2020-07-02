@@ -1,3 +1,5 @@
+type:behavioral
+
 it is a decoupling pattern used when there is a subject that need to be observed
 by one o more observer
 

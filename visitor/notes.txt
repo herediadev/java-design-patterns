@@ -1,3 +1,5 @@
+type:behavioral
+
 it is used to separate an algorithm from an object structure
 
 Concepts

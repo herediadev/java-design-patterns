@@ -1,3 +1,5 @@
+type:behavioral
+
 use to externalize an object state, usually to provide rollback functionality
 
 Concepts

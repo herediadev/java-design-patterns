@@ -1,3 +1,5 @@
+type:behavioral
+
 it is used to define a algorithm and allow subclasses to refined parts of the algorithm without changing the structure
 
 concepts

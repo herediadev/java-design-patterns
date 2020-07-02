@@ -1,3 +1,5 @@
+type:behavioral
+
 Use to
     traverse a container
     Does not expose underlying structure

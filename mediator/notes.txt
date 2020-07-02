@@ -1,3 +1,5 @@
+type:behavioral
+
 use when to define how object interact with each other without
 having them refer to each other explicitly
 

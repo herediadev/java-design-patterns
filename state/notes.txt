@@ -1,3 +1,5 @@
+type:behavioral
+
 it is used when we need to represent the state in an application
 
 concepts

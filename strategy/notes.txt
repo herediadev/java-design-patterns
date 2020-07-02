@@ -1,3 +1,5 @@
+type:behavioral
+
 it is used when you want to enable a algorithm to be selected at runtime
 
 Concepts
