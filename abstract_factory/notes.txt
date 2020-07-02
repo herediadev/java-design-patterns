@@ -1,0 +1,18 @@
+it is used similar to the factory pattern
+
+concepts
+    it is a factory of factories
+    factory of related object
+    common interface
+    defer to subclasses
+
+design
+    Abstract Factory
+    Concrete Factory
+    Concrete Product
+    Group Factories together
+    factory is responsible for lifecycle
+    common interfaces
+    concrete classes
+    parameterized create method
+    composition
