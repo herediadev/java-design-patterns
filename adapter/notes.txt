@@ -1,5 +1,7 @@
 It is used to connect new code to legacy code without having to change the working contract that was produced from the legacy code
 
+type: structural
+
 Concepts
     Plug adaptor
     Convert interface into another interface
