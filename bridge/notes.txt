@@ -2,6 +2,8 @@ it is used to adapt new code instead of legacy code
 
 type: structural
 
+most of the time implemented with a interfaces and an abstract class
+
 concepts
     Decouple abstraction and implementation
     encapsulation, composition, inheritance
