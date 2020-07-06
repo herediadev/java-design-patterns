@@ -1,0 +1,18 @@
+It is used to connect new code to legacy code without having to change the working contract that was produced from the legacy code
+
+Concepts
+    Plug adaptor
+    Convert interface into another interface
+    Legacy
+    Translate request to the code to adapt
+    Client, Adapter, Adaptee
+    Adapts functionalities
+
+Design
+    Client centric
+    integrate new with old
+    interface, but not required
+    Adaptee can be the implementation
+    Client
+    Adapter <interface>
+    LegacyProduct
