@@ -1,0 +1,17 @@
+it is used to adapt new code instead of legacy code
+
+type: structural
+
+concepts
+    Decouple abstraction and implementation
+    encapsulation, composition, inheritance
+    changes in abstraction will not affect client
+    details will not be right
+    gives great flexibility
+
+design
+    interfaces and abstract classes
+    composition over inheritance
+    more than composition
+    expect change from both sides
+    Abstraction, Implementor, Refined Abstraction, Concrete Implementor
