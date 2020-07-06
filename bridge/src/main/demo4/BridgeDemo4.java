@@ -10,10 +10,15 @@ public class BridgeDemo4 {
         movie.setYear("2014");
 
         Formatter formatter = new PrintFormatter();
-        Printer printer = new MoviePrinter(movie);
+        Printer moviePrinter = new MoviePrinter(movie);
 
-        String printedMaterial = printer.print(formatter);
+        String printedMaterial = moviePrinter.print(formatter);
 
         System.out.println(printedMaterial);
+
+        HtmlFormatter htmlFormatter = new HtmlFormatter();
+        String printedHtmlMaterial = moviePrinter.print(htmlFormatter);
+
+        System.out.println(printedHtmlMaterial);
     }
 }
