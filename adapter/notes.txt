@@ -9,6 +9,9 @@ Concepts
     Translate request to the code to adapt
     Client, Adapter, Adaptee
     Adapts functionalities
+    works after code is designed
+    retrofitted
+    provides different interface
 
 Design
     Client centric

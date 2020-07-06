@@ -6,10 +6,17 @@ most of the time implemented with a interfaces and an abstract class
 
 concepts
     Decouple abstraction and implementation
-    encapsulation, composition, inheritance
+    more encapsulation, composition, inheritance
     changes in abstraction will not affect client
     details will not be right
-    gives great flexibility
+    provides flexibility
+    design upfront
+    abstraction and implementation vary
+    build in advance
+    complex
+    breaks functionalities so that we can make changed independently of one another
+    design for uncertainty
+    good Object Oriented design principles
 
 design
     interfaces and abstract classes
