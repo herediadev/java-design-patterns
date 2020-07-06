@@ -1,5 +1,8 @@
 package main.demo3;
 
+import main.demo3.abstraction.Color;
+import main.demo3.abstraction.Shape;
+
 public class BridgeDemo3 {
 
     public static void main(String[] args) {
@@ -21,7 +24,5 @@ public class BridgeDemo3 {
         circle.applyColor();
         greenCircle.applyColor();
         greenSquare.applyColor();
-
-        System.out.println(greenCircle.color);
     }
 }

@@ -1,5 +1,8 @@
 package main.demo3;
 
+import main.demo3.abstraction.Color;
+import main.demo3.abstraction.Shape;
+
 public class Square extends Shape {
 
     public Square(Color color) {
