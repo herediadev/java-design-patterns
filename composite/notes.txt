@@ -1,0 +1,21 @@
+it is used to deal with tree structure of information
+
+type:structural
+
+concepts
+    components represent part or whole structure
+    compose objects into tree structures
+    individual object treated as a composite
+    same operation applied on individual and composites
+    generalizes a hierarchical structure
+    can simplify things too much
+    easier for clients
+    composite != composition
+
+design
+    tree structured
+    component
+    leaf or composite, same operation
+    Component knows about child objects
+    Components, Leaf, Composite
+
