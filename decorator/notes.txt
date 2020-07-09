@@ -1,0 +1,18 @@
+it is a hierarchical type pattern used to build functionalities at each level by using
+composition to similar data types
+
+type: structural
+
+concepts
+    also called wrapper
+    add behavior without affecting others
+    more than just inheritance
+    follows single responsibility principle
+    compose behavior dynamically
+
+design
+    inheritance based
+    utilizes composition and inheritances (is-a, has-a)
+    alternative to subclassing
+    constructor requires instance from hierarchy
+    Component, ConcreteComponent, Decorator, ConcreteDecorator
