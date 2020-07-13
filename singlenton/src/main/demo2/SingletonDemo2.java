@@ -6,7 +6,7 @@ import java.sql.Statement;
 
 public class SingletonDemo2 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
         DbSingleton instance = DbSingleton.getInstance();
 
         long timeBefore = 0L;
