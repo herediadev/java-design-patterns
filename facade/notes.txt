@@ -1,0 +1,18 @@
+it is used to provide a simplify interface to a complex o difficulty in the system due
+to poor design
+
+type: structural
+
+concepts
+    make an API to use
+    reduce dependencies on outside code
+    simplify the interface or client usage
+    usually a refactoring pattern
+
+design
+    class that utilizes composition
+    should not have a need for inheritance
+    typically encompasses full lifecycle
+    facade
+    package1
+    package2
