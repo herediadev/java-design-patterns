@@ -5,8 +5,11 @@ type:structural
 concept
     more efficient use of memory
     large number of similar object
-    immutable
+    immutable objects
     most of the object states can be extrinsic
+    optimization pattern
+    a little bit complex
+    used a lot by the core API
 
 design
     pattern os patterns
