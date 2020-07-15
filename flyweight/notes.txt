@@ -1,0 +1,15 @@
+it is use to minimize memory usage by sharing data with similar object
+
+type:structural
+
+concept
+    more efficient use of memory
+    large number of similar object
+    immutable
+    most of the object states can be extrinsic
+
+design
+    pattern os patterns
+    utilizes a factory
+    encompasses creation and structure
+    Client, Factory, Flyweight, ConcreteFlyweight
