@@ -8,6 +8,8 @@ concepts
     reduce dependencies on outside code
     simplify the interface or client usage
     usually a refactoring pattern
+    works with composites
+    cleaner API
 
 design
     class that utilizes composition
