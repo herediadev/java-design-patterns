@@ -10,6 +10,9 @@ concepts
     usually a refactoring pattern
     works with composites
     cleaner API
+    refactoring pattern
+    esasy pattern to implement
+
 
 design
     class that utilizes composition
