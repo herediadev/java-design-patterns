@@ -1,0 +1,17 @@
+it is used to act as a interface to something else
+
+concepts
+    interface by wrapping
+    can add functionality
+    security, simplicity, remote, cost
+    proxy called to access to real object
+    only one proxy
+    another abstraction
+    similar to other patterns
+
+design
+    interface based
+    interface and implementation class
+    java.lang.reflect.InvocationHandler
+    java.lang.reflect.Proxy
+    Client, Interface, InvocationHandler,Proxy, Implementation
